@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="dna" elementFormDefault="qualified"
+	xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="dna">
+	<complexType name="dnaType">
+		<sequence>
+			<element name="dna" type="string" minOccurs="1"
+				maxOccurs="unbounded"></element>
+		</sequence>
+	</complexType>
+
+    <element name="mutantIdentifierRQ" type="tns:dnaType"></element>
+
+
+    <element name="mutantIdentifierRS" type="tns:statusType"></element>
+
+    <complexType name="statusType">
+    	<sequence>
+    		<element name="codes" type="string"></element>
+    		<element name="description" type="string"></element>
+    	</sequence>
+    </complexType>
+</schema>
