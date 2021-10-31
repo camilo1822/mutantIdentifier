@@ -6,7 +6,7 @@ derived_file_type:
 threadsafe: True
 auto_id_policy: default
 beta_settings:
-  'source_reference': 'https://github.com/camilo1822/mutantIdentifier.git#e4cb942e15a3b13c0e78de4c2a043ef08a1c1dee'
+  'source_reference': 'https://github.com/camilo1822/mutantIdentifier.git#d3b3715918b664125ff924c11f1753d902098f69'
 api_version: 'user_defined'
 handlers:
 - url: /
