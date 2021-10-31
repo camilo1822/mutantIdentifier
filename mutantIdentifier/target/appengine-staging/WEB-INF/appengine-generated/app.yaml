@@ -1,0 +1,31 @@
+runtime: java8
+inbound_services:
+- warmup
+derived_file_type:
+- java_precompiled
+threadsafe: True
+auto_id_policy: default
+beta_settings:
+  'source_reference': 'https://github.com/camilo1822/mutantIdentifier.git#e4cb942e15a3b13c0e78de4c2a043ef08a1c1dee'
+api_version: 'user_defined'
+handlers:
+- url: /
+  script: unused
+  login: optional
+  secure: optional
+- url: /_ah/.*
+  script: unused
+  login: optional
+  secure: optional
+- url: /rest
+  script: unused
+  login: optional
+  secure: optional
+- url: /.*/
+  script: unused
+  login: optional
+  secure: optional
+- url: /rest/.*
+  script: unused
+  login: optional
+  secure: optional

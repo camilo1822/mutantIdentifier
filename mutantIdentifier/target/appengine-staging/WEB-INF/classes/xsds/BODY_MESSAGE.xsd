@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="body" elementFormDefault="qualified"
+	xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="body"
+	xmlns:pref="dna">
+	<import schemaLocation="DNA.xsd" namespace="dna"></import>
+	<complexType name="requestBodyType">
+		<sequence>
+			<element ref="pref:mutantIdentifierRQ"></element>
+		</sequence>
+	</complexType>
+	<complexType name="responseBodyType">
+		<sequence>
+			<element ref="pref:mutantIdentifierRS"></element>
+		</sequence>
+	</complexType>
+</schema>

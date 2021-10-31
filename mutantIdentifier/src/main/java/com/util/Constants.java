@@ -28,7 +28,7 @@ public class Constants {
 	public static final String REGULAR_PHRASE_VALID_CHARACTERS = "[ATCG]+";
 	//FACADE
 	public static final String FACADE_PATH = "/services";
-	public static final String COMMON_STRING_MUTANT = "mutant";
+	public static final String COMMON_STRING_MUTANT = "/mutant";
 	// Errores
 	public static final String PARSING_ERROR_MESSAGE = "Error parseando objeto";
 	public static final String PARSING_ERROR_CODE = "MU_1";
